@@ -1,8 +1,57 @@
 import 'package:flutter/material.dart';
-import 'package:hng_shoping_app/model/cart_item.dart';
-import 'package:hng_shoping_app/model/product.dart';
+
+class Product {
+  final String id;
+  final String name;
+  final double price;
+  final String imageUrl;
+
+  Product({
+    required this.id,
+    required this.name,
+    required this.price,
+    required this.imageUrl,
+  });
+}
+
+class CartItem {
+  final Product product;
+  int quantity;
+
+  CartItem({required this.product, this.quantity = 1});
+}
 
 class CartModel extends ChangeNotifier {
+  final List<Product> _shopItems = [
+    Product(
+        id: '1',
+        name: 'Classic Chronograph',
+        price: 199.99,
+        imageUrl: 'assets/images/watches/classic_chronograph.png'),
+    Product(
+        id: '2',
+        name: 'Smart Watch Pro',
+        price: 299.99,
+        imageUrl: 'assets/images/watches/smart_watch_pro.png'),
+    Product(
+        id: '3',
+        name: 'Diver\'s Watch',
+        price: 249.99,
+        imageUrl: 'assets/images/watches/divers_watch.png'),
+    Product(
+        id: '4',
+        name: 'Luxury Gold Watch',
+        price: 499.99,
+        imageUrl: 'assets/images/watches/luxury_gold_watch.png'),
+    Product(
+        id: '5',
+        name: 'Sports Watch',
+        price: 149.99,
+        imageUrl: 'assets/images/watches/sports_watch.png'),
+  ];
+
+  List<Product> get shopItems => _shopItems;
+
   List<CartItem> _cartItems = [];
 
   List<CartItem> get cartItems => _cartItems;

@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:hng_shoping_app/pages/checkout_page.dart';
 import 'package:hng_shoping_app/pages/products_page.dart';
 
+import '../model/cart.dart';
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
@@ -11,6 +13,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
+  final CartModel _cartModel = CartModel();
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +21,9 @@ class _MyHomePageState extends State<MyHomePage> {
       body: IndexedStack(
         index: _selectedIndex,
         children: [
-          MyProductPage(),
+          MyProductPage(
+            cartModel: _cartModel,
+          ),
           MyCheckoutPage(),
         ],
       ),
