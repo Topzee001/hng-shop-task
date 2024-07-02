@@ -24,7 +24,9 @@ class _MyHomePageState extends State<MyHomePage> {
           MyProductPage(
             cartModel: _cartModel,
           ),
-          MyCheckoutPage(),
+          MyCheckoutPage(
+            cartModel: _cartModel,
+          ),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(

@@ -25,29 +25,35 @@ class CartModel extends ChangeNotifier {
   final List<Product> _shopItems = [
     Product(
         id: '1',
-        name: 'Classic Chronograph',
+        name: 'Golden Watch',
         price: 199.99,
-        imageUrl: 'assets/images/watches/classic_chronograph.png'),
+        imageUrl: 'assets/closeup-shot-golden-watch-isolated.png'),
     Product(
         id: '2',
-        name: 'Smart Watch Pro',
+        name: 'Elegant Watch',
         price: 299.99,
-        imageUrl: 'assets/images/watches/smart_watch_pro.png'),
+        imageUrl:
+            'assets/elegant-watch-with-silver-golden-chain-lights-isolated.png'),
     Product(
         id: '3',
-        name: 'Diver\'s Watch',
+        name: 'Smart Watch',
         price: 249.99,
-        imageUrl: 'assets/images/watches/divers_watch.png'),
+        imageUrl: 'assets/rendering-smart-home-device.png'),
     Product(
         id: '4',
         name: 'Luxury Gold Watch',
         price: 499.99,
-        imageUrl: 'assets/images/watches/luxury_gold_watch.png'),
+        imageUrl: 'assets/stylish-golden-watch-white-surface.png'),
     Product(
         id: '5',
         name: 'Sports Watch',
         price: 149.99,
-        imageUrl: 'assets/images/watches/sports_watch.png'),
+        imageUrl: 'assets/realistic-fitness-trackers.png'),
+    Product(
+        id: '6',
+        name: 'Elegant watch pro',
+        price: 149.99,
+        imageUrl: 'assets/elegant-watch-with-silver-golden-chain-isolated.png'),
   ];
 
   List<Product> get shopItems => _shopItems;
