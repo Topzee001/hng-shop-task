@@ -11,10 +11,10 @@ class MyProductPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('Shop your watches'),
+        title: const Text('Shop your watches'),
       ),
       body: ListView.builder(
-          padding: EdgeInsets.all(12),
+          padding: const EdgeInsets.all(12),
           itemCount: cartModel.shopItems.length,
           itemBuilder: (context, index) {
             final product = cartModel.shopItems[index];
@@ -31,12 +31,12 @@ class MyProductPage extends StatelessWidget {
                     Text(
                       product.name,
                       style:
-                          TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                          const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
                     ),
                     Text(
                       '\$${product.price.toStringAsFixed(2)}',
                       style:
-                          TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                          const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                     ),
                     ElevatedButton(
                         style: ButtonStyle(
@@ -50,8 +50,8 @@ class MyProductPage extends StatelessWidget {
                                 content: Text('${product.name} added to cart')),
                           );
                         },
-                        child: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 30.0),
+                        child: const Padding(
+                          padding: EdgeInsets.symmetric(horizontal: 30.0),
                           child: Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [

@@ -36,10 +36,10 @@ class _MyHomePageState extends State<MyHomePage> {
             _selectedIndex = index;
           });
         },
-        items: [
-          BottomNavigationBarItem(icon: Icon(Icons.watch), label: 'Watches'),
+        items: const [
+          BottomNavigationBarItem(icon: Icon(Icons.watch), label: 'Produccts'),
           BottomNavigationBarItem(
-              icon: Icon(Icons.shopping_cart), label: 'cart'),
+              icon: Icon(Icons.shopping_cart), label: 'Cart'),
         ],
       ),
     );
