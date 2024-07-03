@@ -17,7 +17,7 @@ It has the features below:
     ```
 3. Navigate to the cloned folder using:
     ```sh
-    cd hng-shop-task
+    cd simple-shopping-task
     ```
 4. Get dependencies using:
     ```sh
@@ -32,6 +32,11 @@ It has the features below:
 ![Screenshot_20240703-185310](https://github.com/Topzee001/simple-shopping-app/assets/104674785/0806965d-86e1-4279-87f1-7a311375827e)
 ![Screenshot_20240703-185349](https://github.com/Topzee001/simple-shopping-app/assets/104674785/8a292b19-1cdf-4708-a319-a799a70ee1c0)
 ![Screenshot_20240703-185340](https://github.com/Topzee001/simple-shopping-app/assets/104674785/3359a5e8-2421-4359-b47b-acbc30cb1083)
+
+![Screenshot_20240703-232337](https://github.com/Topzee001/simple-shopping-app/assets/104674785/0e5cce73-4906-4e70-827e-ab272e2c8e96)
+![Screenshot_20240703-232416](https://github.com/Topzee001/simple-shopping-app/assets/104674785/8b2feda1-d0e1-426c-8e39-4e13e754ecab)
+![Screenshot_20240703-232408](https://github.com/Topzee001/simple-shopping-app/assets/104674785/82b69320-0427-4946-ae72-dc8818303959)
+![Screenshot_20240703-232343](https://github.com/Topzee001/simple-shopping-app/assets/104674785/48e10738-d0c6-40c6-8d0b-ac1ba179ee74)
 
 ## Download APK
 
