@@ -29,19 +29,19 @@ It has the features below:
     ```
 
 ## Screenshots
-![Screenshot_20240703-185310](https://github.com/Topzee001/simple-shopping-app/assets/104674785/0806965d-86e1-4279-87f1-7a311375827e)
-![Screenshot_20240703-185349](https://github.com/Topzee001/simple-shopping-app/assets/104674785/8a292b19-1cdf-4708-a319-a799a70ee1c0)
-![Screenshot_20240703-185340](https://github.com/Topzee001/simple-shopping-app/assets/104674785/3359a5e8-2421-4359-b47b-acbc30cb1083)
 
 ![Screenshot_20240703-232337](https://github.com/Topzee001/simple-shopping-app/assets/104674785/0e5cce73-4906-4e70-827e-ab272e2c8e96)
+
 ![Screenshot_20240703-232416](https://github.com/Topzee001/simple-shopping-app/assets/104674785/8b2feda1-d0e1-426c-8e39-4e13e754ecab)
+
 ![Screenshot_20240703-232408](https://github.com/Topzee001/simple-shopping-app/assets/104674785/82b69320-0427-4946-ae72-dc8818303959)
+
 ![Screenshot_20240703-232343](https://github.com/Topzee001/simple-shopping-app/assets/104674785/48e10738-d0c6-40c6-8d0b-ac1ba179ee74)
 
 ## Download APK
 
-You can download the APK from this [link](https://drive.google.com/file/d/1Uy6eXZfgt0AO_SJqYzqYvrPkZFASV4n8/view?usp=drive_link).
+You can download the APK from this [link](https://drive.google.com/file/d/1EnpM8eQHHrLZ-5rqkdOCa4cHUbo6mi2H/view?usp=drive_link).
 
 ## Appetize.io Demo
 
-You can try out the app without installing it using this [link](your-appetize-link).
+You can try out the app without installing it using this [link](https://appetize.io/embed/b_d7qeha4ewt5elurmrvytqrgkpu).
